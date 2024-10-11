@@ -1,0 +1,91 @@
+/* Reset do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+/* Mudando a fonte */
+body {
+    background-color: #f0f0f0;
+}
+
+/* Paleta de cores */
+:root {
+    --verde: #6a9f7a;
+    --claro: #c9e4ca;
+    --branco: #ffffff;
+}
+
+/* Estilos do Header */
+header {
+    background-color: var(--verde);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--branco);
+    font-size: 2rem;
+}
+
+/* Estilos do Main */
+main {
+    padding: 2rem;
+}
+
+/* Primeira Div */
+.primeira {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.primeira p {
+    max-width: 50%;
+    font-size: 1rem;
+}
+
+.primeira img {
+    max-width: 15rem;
+    margin-left: 1rem;
+}
+
+/* Segunda Div */
+.segunda {
+    background-color: var(--claro);
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.segunda img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.segunda p {
+    max-width: 15rem;
+    text-align: center;
+}
+
+/* Terceira Div */
+.terceira {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.terceira img {
+    width: 10rem;
+    height: 10rem;
+}
